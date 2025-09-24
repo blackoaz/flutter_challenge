@@ -56,7 +56,8 @@ class AppNotifier with ChangeNotifier {
         'Failed to load trending images. Status: ${response.statusCode}';
       }
     } catch (e) {
-      _trendingError = 'An error occurred: $e';
+      print(e);
+      _trendingError = 'An error occurred while fetching data';
     } finally {
       _isTrendingLoading = false;
       notifyListeners();
