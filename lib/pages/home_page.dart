@@ -40,7 +40,7 @@ class _HomePageState extends State<HomePage> {
         } else {
           return Scaffold(
             appBar: AppBar(
-              title: const Text('PICTURE PERFECT'),
+              title: const Text('PIXABAY'),
               centerTitle: true,
               actions: [
                 IconButton(

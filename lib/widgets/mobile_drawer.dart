@@ -15,7 +15,7 @@ class MobileDrawer extends StatelessWidget {
             decoration: BoxDecoration(
               color: Theme.of(context).colorScheme.primary,
             ),
-            child: const Text('Navigation'),
+            child: const Text('PIXABAY'),
           ),
           ListTile(
             title: const Text('Dashboard'),
